@@ -1,0 +1,513 @@
+@font-face {
+	font-family:"MarkWeb W01 Regular";
+	src:url("Fonts/1466068/76b78c7b-50e8-443f-947d-491bd1363209.eot?#iefix");
+	src:url("Fonts/1466068/76b78c7b-50e8-443f-947d-491bd1363209.eot?#iefix") format("eot"),url("Fonts/1466068/b3504f0d-8be1-4759-bb03-dd041a630b85.woff2") format("woff2"),url("Fonts/1466068/f4f1b391-1256-4245-ba89-842d884c1e51.woff") format("woff"),url("Fonts/1466068/1f72bfeb-0b2a-45fa-aaee-bbd991d40541.ttf") format("truetype");
+}
+
+.back_image {
+	background-color: #353896;
+	background-size: cover;
+	margin: 0px 0px 0px 0px; 
+}
+
+#zine {
+	width: 300px;
+	height: 300px;
+}
+
+.flexbox {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: flex-start;
+}
+
+
+
+/* endtimes hover */
+.endtimes_off, #endtimes:hover .endtimes_on{
+   display:none
+}
+.endtimes_on, #endtimes:hover .endtimes_off{
+   display:block
+}
+
+.sendbuttons{
+	width: 150px;
+	
+}
+
+.endtimes_off {
+	width: 300px;
+	height: 300px;
+}
+
+/* plates hover */
+.plates_off, #plates:hover .plates_on{
+   display:none
+}
+.plates_on, #plates:hover .plates_off{
+   display:block
+}
+
+.plates_on {
+	width: 300px;
+	height: 300px;
+}
+
+.plates_off {
+	width: 300px;
+	height: 300px;
+}
+
+/* ihaveaproblem hover */
+.zine_off, #zine:hover .zine_on{
+   display:none
+}
+.zine_on, #zine:hover .zine_off{
+   display:block
+}
+
+.zine_on {
+	width: 300px;
+	height: 300px;
+}
+
+.zine_off {
+	width: 300px;
+	height: 300px;
+}
+
+/* postcards for my representatives hover */
+
+.postcards_off, #postcards:hover .postcards_on{
+   display:none
+}
+
+.postcards_on, #postcards:hover .postcards_off{
+   display:block
+}
+
+.postcards_on {
+	width: 300px;
+	height: 300px;
+}
+
+.postcards_off {
+	width: 300px;
+	height: 300px;
+}
+
+/* spy museum hover */
+
+.spymuseum_off, #spymuseum:hover .spymuseum_on{
+   display:none
+}
+
+.spymuseum_on, #spymuseum:hover .spymuseum_off{
+   display:block
+}
+
+.spymuseum_on {
+	width: 300px;
+	height: 300px;
+}
+
+.spymuseum_off {
+	width: 300px;
+	height: 300px;
+}
+
+/* horta museum hover */
+
+.horta_off, #horta:hover .horta_on{
+   display:none
+}
+
+.horta_on, #horta:hover .horta_off{
+   display:block
+}
+
+.horta_on {
+	width: 300px;
+	height: 300px;
+}
+
+.horta_off {
+	width: 300px;
+	height: 300px;
+}   
+
+/* glitch hover */
+
+.glitch_off, #glitch:hover .glitch_on{
+   display:none
+}
+
+.glitch_on, #glitch:hover .glitch_off{
+   display:block
+}
+
+.glitch_on {
+	width: 300px;
+	height: 300px;
+}
+
+.glitch_off {
+	width: 300px;
+	height: 300px;
+}  
+
+/* rocketbird hover */
+
+.rocketbird_off, #rocketbird:hover .rocketbird_on{
+   display:none
+}
+
+.rocketbird_on, #rocketbird:hover .rocketbird_off{
+   display:block
+}
+
+.rocketbird_on {
+	width: 300px;
+	height: 300px;
+}
+
+.rocketbird_off {
+	width: 300px;
+	height: 300px;
+} 
+
+/* everything i own in my shower hover */
+
+.shower_off, #shower:hover .shower_on{
+   display:none
+}
+
+.shower_on, #shower:hover .shower_off{
+   display:block
+}
+
+.shower_on {
+	width: 300px;
+	height: 300px;
+}
+
+.shower_off {
+	width: 300px;
+	height: 300px;
+} 
+
+/* multiplicity hover */
+
+.multiplicity_off, #multiplicity:hover .multiplicity_on{
+   display:none
+}
+
+.multiplicity_on, #multiplicity:hover .multiplicity_off{
+   display:block
+}
+
+.multiplicity_on {
+	width: 300px;
+	height: 300px;
+}
+
+.multiplicity_off {
+	width: 300px;
+	height: 300px;
+} 
+
+/* olympic hover */
+
+.olympic_off, #olympic:hover .olympic_on{
+   display:none
+}
+
+.olympic_on, #olympic:hover .olympic_off{
+   display:block
+}
+
+.olympic_on {
+	width: 300px;
+	height: 300px;
+}
+
+.olympic_off {
+	width: 300px;
+	height: 300px;
+} 
+
+/* createur hover */
+
+.createur_off, #createur:hover .createur_on{
+   display:none
+}
+
+.createur_on, #createur:hover .createur_off{
+   display:block
+}
+
+.createur_on {
+	width: 300px;
+	height: 300px;
+}
+
+.createur_off {
+	width: 300px;
+	height: 300px;
+} 
+
+/* makingmonsters hover */
+
+.makingmonsters_off, #makingmonsters:hover .makingmonsters_on{
+   display:none
+}
+
+.makingmonsters_on, #makingmonsters:hover .makingmonsters_off{
+   display:block
+}
+
+.makingmonsters_on {
+	width: 300px;
+	height: 300px;
+}
+
+.makingmonsters_off {
+	width: 300px;
+	height: 300px;
+} 
+
+/* golden hover */
+
+.golden_off, #golden:hover .golden_on{
+   display:none
+}
+
+.golden_on, #golden:hover .golden_off{
+   display:block
+}
+
+.golden_on {
+	width: 300px;
+	height: 300px;
+}
+
+.golden_off {
+	width: 300px;
+	height: 300px;
+} 
+
+/* johnandtoots hover */
+
+.johnandtoots_off, #johnandtoots:hover .johnandtoots_on{
+   display:none
+}
+
+.johnandtoots_on, #johnandtoots:hover .johnandtoots_off{
+   display:block
+}
+
+.johnandtoots_on {
+	width: 300px;
+	height: 300px;
+}
+
+.johnandtoots_off {
+	width: 300px;
+	height: 300px;
+} 
+
+/* shittysituation hover */
+
+.shittysituation_off, #shittysituation:hover .shittysituation_on{
+   display:none
+}
+
+.shittysituation_on, #shittysituation:hover .shittysituation_off{
+   display:block
+}
+
+.shittysituation_on {
+	width: 300px;
+	height: 300px;
+}
+
+.shittysituation_off {
+	width: 300px;
+	height: 300px;
+} 
+
+/* makestuff hover */
+
+.makestuff_off, #makestuff:hover .makestuff_on{
+   display:none
+}
+
+.makestuff_on, #makestuff:hover .makestuff_off{
+   display:block
+}
+
+.makestuff_on {
+	width: 300px;
+	height: 300px;
+}
+
+.makestuff_off {
+	width: 300px;
+	height: 300px;
+} 
+
+/* workshop hover */
+
+.workshop_off, #workshop:hover .workshop_on{
+   display:none
+}
+
+.workshop_on, #workshop:hover .workshop_off{
+   display:block
+}
+
+.workshop_on {
+	width: 300px;
+	height: 300px;
+}
+
+.workshop_off {
+	width: 300px;
+	height: 300px;
+} 
+
+/* photosprovidence hover */
+
+.photosprovidence_off, #photosprovidence:hover .photosprovidence_on{
+   display:none
+}
+
+.photosprovidence_on, #photosprovidence:hover .photosprovidence_off{
+   display:block
+}
+
+.photosprovidence_on {
+	width: 300px;
+	height: 300px;
+}
+
+.photosprovidence_off {
+	width: 300px;
+	height: 300px;
+} 
+
+/* go4it hover */
+
+.go4it_off, #go4it:hover .go4it_on{
+   display:none
+}
+
+.go4it_on, #go4it:hover .go4it_off{
+   display:block
+}
+
+.go4it_on {
+	width: 300px;
+	height: 300px;
+}
+
+.go4it_off {
+	width: 300px;
+	height: 300px;
+} 
+
+/* dronebaby hover */
+
+.dronebaby_off, #dronebaby:hover .dronebaby_on{
+   display:none
+}
+
+.dronebaby_on, #dronebaby:hover .dronebaby_off{
+   display:block
+}
+
+.dronebaby_on {
+	width: 300px;
+	height: 300px;
+}
+
+.dronebaby_off {
+	width: 300px;
+	height: 300px;
+} 
+
+/* text */
+
+.text {
+	font-family:"MarkWeb W01 Regular";
+	font-size: 1rem;
+	position: relative;
+	text-align: center;
+	color: #f32938;
+}
+
+.container {
+	width:300px;
+	height: 300px;
+	float: left;
+	margin: 1rem 0rem 1rem 0rem;
+	
+}
+
+.header {
+	
+	display: flex;
+	font-family:"MarkWeb W01 Regular";
+	font-size: 1rem;
+	color: #f32938;
+}
+
+.burger {
+	height:2rem;
+}
+
+.hamburger {
+	background-color: transparent;
+	text-decoration: none;
+	font-size: 2rem;
+	border: transparent;
+	font-family:"MarkWeb W01 Regular";
+	color: #f32938;
+	margin-left: .5rem;
+	outline-color: transparent;
+  	outline-style: none;
+}
+
+.home {
+	background-color: transparent;
+	text-decoration: none;
+	font-size: 2rem;
+	border: transparent;
+	font-family:"MarkWeb W01 Regular";
+	color: #f32938;
+}
+
+span {
+	background-color: transparent;
+	text-decoration: none;
+	font-size: 1rem;
+	border: transparent;
+	font-family:"MarkWeb W01 Regular";
+	color: #f32938;
+	opacity: .2;
+}
+
+.menu {font-size:.75rem; width: 100; background:#f32938; text-align:center; display: inline-flex; flex-wrap: wrap; justify-content: center; padding-left:0rem;}
+
+li {
+	color:white;
+	display: inline;
+	padding: .5rem 1rem .5rem 1rem;
+	font-family:"MarkWeb W01 Regular";
+}
+
+
+
+
