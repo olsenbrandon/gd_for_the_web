@@ -1,0 +1,102 @@
+.back_image {
+	background-color: #353896;
+	background-size: cover;
+	margin: 0px 0px 0px 0px; 
+}
+
+#zine {
+	width: 300px;
+	height: 300px;
+}
+
+.flexbox {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: flex-start;
+}
+
+
+
+/* endtimes hover */
+.endtimes_off, #endtimes:hover .endtimes_on{
+   display:none
+}
+.endtimes_on, #endtimes:hover .endtimes_off{
+   display:block
+}
+
+.sendbuttons{
+	width: 150px;
+	
+}
+
+/* text */
+
+.text {
+	font-family:"MarkWeb W01 Regular";
+	font-size: 1rem;
+	position: relative;
+	text-align: center;
+	color: #f32938;
+}
+
+.container {
+	width:300px;
+	height: 300px;
+	float: left;
+	margin: 1rem 0rem 1rem 0rem;
+	
+}
+
+.header {
+	
+	display: flex;
+	font-family:"MarkWeb W01 Regular";
+	font-size: 1rem;
+	color: #f32938;
+}
+
+.burger {
+	height:2rem;
+}
+
+.hamburger {
+	background-color: transparent;
+	text-decoration: none;
+	font-size: 2rem;
+	border: transparent;
+	font-family:"MarkWeb W01 Regular";
+	color: #f32938;
+	margin-left: .5rem;
+	outline-color: transparent;
+  	outline-style: none;
+}
+
+.home {
+	background-color: transparent;
+	text-decoration: none;
+	font-size: 2rem;
+	border: transparent;
+	font-family:"MarkWeb W01 Regular";
+	color: #f32938;
+}
+
+span {
+	background-color: transparent;
+	text-decoration: none;
+	font-size: 1rem;
+	border: transparent;
+	font-family:"MarkWeb W01 Regular";
+	color: #f32938;
+	opacity: .2;
+}
+
+.menu {font-size:.75rem; width: 100; background:#f32938; text-align:center; display: inline-flex; flex-wrap: wrap; justify-content: center; padding-left:0rem;}
+
+li {
+	color:white;
+	display: inline;
+	padding: .5rem 1rem .5rem 1rem;
+	font-family:"MarkWeb W01 Regular";
+}
