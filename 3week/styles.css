@@ -1,0 +1,95 @@
+body { background-color: black; }
+
+.sendIcon_UP {
+	width:100px;
+	position: absolute; 
+	margin-left: 45%; 
+	z-index: 10;
+}
+
+.sendIcon_UP:hover { transform: scale(1.3); }
+
+.sendIcon_UPRIGHT {
+	width:100px;
+	position: absolute;
+	margin-left: 70%;
+	margin-top: 5%;
+	z-index: 10;
+}
+
+.sendIcon_UPRIGHT:hover { transform: scale(1.3); }
+
+.sendIcon_UPLEFT {
+	width:100px;
+	position: absolute;
+	margin-left: 20%;
+	margin-top: 5%;
+	z-index: 10;
+}
+
+.sendIcon_UPLEFT:hover { transform: scale(1.3); }
+
+.sendIcon_RIGHT {
+	width:100px;
+	position: absolute;
+	margin-left: 82%;
+	margin-top: 40vh;
+	z-index: 10;
+}
+
+.sendIcon_RIGHT:hover { transform: scale(1.3); }
+
+.sendIcon_LEFT {
+	width:100px;
+	position: absolute;
+	margin-left: 10%;
+	margin-top: 40vh;
+	z-index: 10;
+}
+
+.sendIcon_LEFT:hover { transform: scale(1.3); }
+
+.sendIcon_DOWN {
+	width:100px;
+	position: absolute; 
+	margin-left: 45%;
+	margin-top:85vh; 
+	z-index: 10;
+}
+
+.sendIcon_DOWN:hover { transform: scale(1.3); }
+
+.sendIcon_DOWNRIGHT {
+	width:100px;
+	position: absolute;
+	margin-left: 70%;
+	margin-top: 80vh;
+	z-index: 10;
+}
+
+.sendIcon_DOWNRIGHT:hover { transform: scale(1.3); }
+
+.sendIcon_DOWNLEFT {
+	width:100px;
+	position: absolute;
+	margin-left: 20%;
+	margin-top: 80vh;
+	z-index: 10;
+}
+
+.sendIcon_DOWNLEFT:hover { transform: scale(1.3); }
+
+.question {
+	font-size: 2rem;
+	font-family: sans-serif;
+	color: white;
+	position: absolute;
+	margin-top: 40vh;
+	text-align: center;
+	width: 100vw;
+	z-index: 10;
+
+}
+
+
+
