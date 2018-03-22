@@ -1,6 +1,6 @@
 var input, button, question;
 var up, right, left, down, upright;
-var thoughtsOn = [' The Government',' The Color Red', ' Education', ' Donuts', ' The Republican Party', ' The 2020 Election', ' Coffee', ' Thor, God of Thunder'];
+var thoughtsOn = [' The Government ',' The Color Red ', ' Education ', ' Donuts ', ' The Republican Party ', ' The 2020 Election ', ' Coffee ', ' Thor, God of Thunder '];
 var newEmail;
 
 function preload() {
@@ -34,7 +34,7 @@ function setup() {
   button.style('font-family','sans-serif');
   
   // WHAT ARE YOUR THOUGHTS ON...
-  question = createElement('h2', 'What Are Your Thoughts On...');
+  question = createElement('h2', 'Write Your Thoughts On...');
   question.position(windowWidth/4, height/6);
   question.style('font-size','3rem');
   question.style('font-family','sans-serif');
