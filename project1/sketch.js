@@ -322,7 +322,7 @@ function mousePressed () {
 
   
   var respond = input.value();
-  question.html('Send Your Thoughts');
+  question.html('Click to Send Your Thoughts');
   input.value('');
   input.hide();button.hide();
   
