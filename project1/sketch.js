@@ -334,7 +334,7 @@ function mousePressed () {
 
   
   var respond = input.value();
-  question.html('Send Your Thoughts');
+  question.html('Click To Send Your Thoughts');
   input.value('');
   input.hide();button.hide();
   
