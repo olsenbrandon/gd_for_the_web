@@ -1,6 +1,6 @@
 var input, button, question;
 var up, right, left, down, upright;
-var thoughtsOn = [' The Government',' The Color Red', ' Education', ' Donuts', ' The Republican Party', ' The 2020 Election', ' Coffee', ' Thor, God of Thunder'];
+var thoughtsOn = [' The Government ',' The Color Red ', ' Education ', ' Donuts ', ' The Republican Party ', ' The 2020 Election ', ' Coffee', ' Robots ', ' Pop Music ', ' Self-driving Cars ', ' Game of Thrones '];
 var newEmail, emailName;
 
 function preload() {
