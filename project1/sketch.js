@@ -163,7 +163,7 @@ function draw(){
       right.show();
       push();
       newEmail=['contact@TeaParty.org'];
-      emailName=['Tea%20Party,'];
+      emailName=['Tea%20Party,%0D%0A'];
       pop();
       
   }  else {
@@ -177,7 +177,7 @@ function draw(){
       left.show();
       push();
       newEmail=['riaclu@riaclu.org'];
-      emailName=['Rhode%20Island%20ACLU,'];
+      emailName=['Rhode%20Island%20ACLU,%0D%0A'];
       pop();
   }  else {
       left.hide();
@@ -190,7 +190,7 @@ function draw(){
       down.show();
       push();
       newEmail=['HPNadramia@churchofsatan.com'];
-      emailName=['Church%20of%20Satan,'];
+      emailName=['Church%20of%20Satan,%0D%0A'];
       pop();
   }  else {
       down.hide();
@@ -203,7 +203,7 @@ function draw(){
       up.show();
       push();
       newEmail=['nssc-contactcenter@nasa.gov'];
-      emailName=['NASA,'];
+      emailName=['NASA,%0D%0A'];
       pop();
   }  else {
       up.hide();
@@ -216,7 +216,7 @@ function draw(){
       upright.show();
       push();
       newEmail=['corporate.ethics@lmco.com'];
-      emailName=['Lockheed%20Martin,'];
+      emailName=['Lockheed%20Martin,%0D%0A'];
       pop();
   }  else {
       upright.hide();
@@ -229,7 +229,7 @@ function draw(){
       rightup.show();
       push();
       newEmail=['Ajit.Pai@fcc.gov'];
-      emailName=['FCC,'];
+      emailName=['FCC,%0D%0A'];
       pop();
   }  else {
       rightup.hide();
@@ -242,7 +242,7 @@ function draw(){
       rightdown.show();
       push();
       newEmail=['comments@foxnewsinsider.com'];
-      emailName=['Fox%20News,'];
+      emailName=['Fox%20News,%0D%0A'];
       pop();
   }  else {
       rightdown.hide();
@@ -255,7 +255,7 @@ function draw(){
       downright.show();
       push();
       newEmail=['membership@nrahq.org'];
-      emailName=['NRA,'];
+      emailName=['NRA,%0D%0A'];
       pop();
   }  else {
       downright.hide();
@@ -268,7 +268,7 @@ function draw(){
       downleft.show();
       push();
       newEmail=['cust.serv@equifax.com'];
-      emailName=['Equifax,'];
+      emailName=['Equifax,%0D%0A'];
       pop();
   }  else {
       downleft.hide();
@@ -281,7 +281,7 @@ function draw(){
       leftdown.show();
       push();
       newEmail=['press@fb.com'];
-      emailName=['Facebook,'];
+      emailName=['Facebook,%0D%0A'];
       pop();
   }  else {
       leftdown.hide();
@@ -294,7 +294,7 @@ function draw(){
       leftup.show();
       push();
       newEmail=['NWS.communications.office@noaa.gov'];
-      emailName=['NOAA,'];
+      emailName=['NOAA,%0D%0A'];
       pop();
   }  else {
       leftup.hide();
@@ -307,7 +307,7 @@ function draw(){
       upleft.show();
       push();
       newEmail=['MEDIA@SPACEX.COM'];
-      emailName=['SpaceX,'];
+      emailName=['SpaceX,%0D%0A'];
       pop();
   }  else {
       upleft.hide();
