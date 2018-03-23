@@ -1,7 +1,7 @@
 var input, button, question;
 var up, right, left, down, upright;
-var thoughtsOn = [' The Government ',' The Color Red ', ' Education ', ' Donuts ', ' The Republican Party ', ' The 2020 Election ', ' Coffee ', ' Thor, God of Thunder '];
-var newEmail;
+var thoughtsOn = [' The Government',' The Color Red', ' Education', ' Donuts', ' The Republican Party', ' The 2020 Election', ' Coffee', ' Thor, God of Thunder'];
+var newEmail, emailName;
 
 function preload() {
   img = loadImage('img/send.svg');
@@ -34,7 +34,7 @@ function setup() {
   button.style('font-family','sans-serif');
   
   // WHAT ARE YOUR THOUGHTS ON...
-  question = createElement('h2', 'Write Your Thoughts On...');
+  question = createElement('h2', 'What Are Your Thoughts On...');
   question.position(windowWidth/4, height/6);
   question.style('font-size','3rem');
   question.style('font-family','sans-serif');
@@ -152,17 +152,18 @@ function setup() {
 
 
 function draw(){
-	background(238,40,69);
-	
-	
-	
-	// HIDE/SHOW ---- RIGHT
-	if (frameCount*2%360 <= 360) {
+  background(238,40,69);
+  
+  
+  
+  // HIDE/SHOW ---- RIGHT
+  if (frameCount*2%360 <= 360) {
    // If you go off screen.
     if (frameCount*2%360 > 75 && frameCount*2%360 < 105) {
       right.show();
       push();
-      newEmail=['contact@TeaParty.org']
+      newEmail=['contact@TeaParty.org'];
+      emailName=['Tea%20Party,'];
       pop();
       
   }  else {
@@ -170,147 +171,158 @@ function draw(){
   }}
   
   // HIDE/SHOW ---- LEFT
-	if (frameCount*2%360 <= 360) {
+  if (frameCount*2%360 <= 360) {
    // If you go off screen.
     if (frameCount*2%360 > 255 && frameCount*2%360 < 285) {
       left.show();
       push();
-      newEmail=['riaclu@riaclu.org']
+      newEmail=['riaclu@riaclu.org'];
+      emailName=['Rhode%20Island%20ACLU,'];
       pop();
   }  else {
       left.hide();
   }}
   
   // HIDE/SHOW ---- DOWN
-	if (frameCount*2%360 <= 360) {
+  if (frameCount*2%360 <= 360) {
    // If you go off screen.
     if (frameCount*2%360 > 165 && frameCount*2%360 < 195) {
       down.show();
       push();
-      newEmail=['HPNadramia@churchofsatan.com']
+      newEmail=['HPNadramia@churchofsatan.com'];
+      emailName=['Church%20of%20Satan,'];
       pop();
   }  else {
       down.hide();
   }}
   
   // HIDE/SHOW ---- UP
-	if (frameCount*2%360 <= 360) {
+  if (frameCount*2%360 <= 360) {
    // If you go off screen.
     if (frameCount*2%360 < 15 || frameCount*2%360 > 345) {
       up.show();
       push();
-      newEmail=['nssc-contactcenter@nasa.gov']
+      newEmail=['nssc-contactcenter@nasa.gov'];
+      emailName=['NASA,'];
       pop();
   }  else {
       up.hide();
   }}
   
   // HIDE/SHOW ---- UPRIGHT
-	if (frameCount*2%360 <= 360) {
+  if (frameCount*2%360 <= 360) {
    // If you go off screen.
     if (frameCount*2%360 > 45 && frameCount*2%360 < 75) {
       upright.show();
       push();
-      newEmail=['corporate.ethics@lmco.com.']
+      newEmail=['corporate.ethics@lmco.com'];
+      emailName=['Lockheed%20Martin,'];
       pop();
   }  else {
       upright.hide();
   }}
   
   // HIDE/SHOW ---- RIGHTUP
-	if (frameCount*2%360 <= 360) {
+  if (frameCount*2%360 <= 360) {
    // If you go off screen.
     if (frameCount*2%360 > 15 && frameCount*2%360 < 45) {
       rightup.show();
       push();
-      newEmail=['Ajit.Pai@fcc.gov']
+      newEmail=['Ajit.Pai@fcc.gov'];
+      emailName=['FCC,'];
       pop();
   }  else {
       rightup.hide();
   }}
   
   // HIDE/SHOW ---- RIGHTDOWN
-	if (frameCount*2%360 <= 360) {
+  if (frameCount*2%360 <= 360) {
    // If you go off screen.
     if (frameCount*2%360 > 105 && frameCount*2%360 < 135) {
       rightdown.show();
       push();
-      newEmail=['comments@foxnewsinsider.com']
+      newEmail=['comments@foxnewsinsider.com'];
+      emailName=['Fox%20News,'];
       pop();
   }  else {
       rightdown.hide();
   }}
   
   // HIDE/SHOW ---- DOWNRIGHT
-	if (frameCount*2%360 <= 360) {
+  if (frameCount*2%360 <= 360) {
    // If you go off screen.
     if (frameCount*2%360 > 135 && frameCount*2%360 < 165) {
       downright.show();
       push();
-      newEmail=['membership@nrahq.org']
+      newEmail=['membership@nrahq.org'];
+      emailName=['NRA,'];
       pop();
   }  else {
       downright.hide();
   }}
   
   // HIDE/SHOW ---- DOWNLEFT
-	if (frameCount*2%360 <= 360) {
+  if (frameCount*2%360 <= 360) {
    // If you go off screen.
     if (frameCount*2%360 > 195 && frameCount*2%360 < 225) {
       downleft.show();
       push();
-      newEmail=['cust.serv@equifax.com']
+      newEmail=['cust.serv@equifax.com'];
+      emailName=['Equifax,'];
       pop();
   }  else {
       downleft.hide();
   }}
   
   // HIDE/SHOW ---- LEFTDOWN
-	if (frameCount*2%360 <= 360) {
+  if (frameCount*2%360 <= 360) {
    // If you go off screen.
     if (frameCount*2%360 > 225 && frameCount*2%360 < 255) {
       leftdown.show();
       push();
-      newEmail=['press@fb.com']
+      newEmail=['press@fb.com'];
+      emailName=['Facebook,'];
       pop();
   }  else {
       leftdown.hide();
   }}
   
   // HIDE/SHOW ---- LEFTUP
-	if (frameCount*2%360 <= 360) {
+  if (frameCount*2%360 <= 360) {
    // If you go off screen.
     if (frameCount*2%360 > 285 && frameCount*2%360 < 315) {
       leftup.show();
       push();
-      newEmail=['NWS.communications.office@noaa.gov'] 
+      newEmail=['NWS.communications.office@noaa.gov'];
+      emailName=['NOAA,'];
       pop();
   }  else {
       leftup.hide();
   }}
   
   // HIDE/SHOW ---- UPLEFT
-	if (frameCount*2%360 <= 360) {
+  if (frameCount*2%360 <= 360) {
    // If you go off screen.
     if (frameCount*2%360 > 315 && frameCount*2%360 < 345) {
       upleft.show();
       push();
-      newEmail=['MEDIA@SPACEX.COM']
+      newEmail=['MEDIA@SPACEX.COM'];
+      emailName=['SpaceX,'];
       pop();
   }  else {
       upleft.hide();
   }}
 
   
-	// move the origin to the pivot point
-	translate(windowWidth/2, windowHeight/2); 
+  // move the origin to the pivot point
+  translate(windowWidth/2, windowHeight/2); 
 
-	// then rotate the grid around the pivot point by a
-	// number of degrees equal to the frame count of the sketch
-	rotate(radians(frameCount*2));
+  // then rotate the grid around the pivot point by a
+  // number of degrees equal to the frame count of the sketch
+  rotate(radians(frameCount*2));
 
-	// and draw the square at the origin
-	image(img,0,0);
+  // and draw the square at the origin
+  image(img,0,0);
   
 }
 
@@ -322,24 +334,16 @@ function mousePressed () {
 
   
   var respond = input.value();
-  question.html('Click to Send Your Thoughts');
+  question.html('Send Your Thoughts');
   input.value('');
   input.hide();button.hide();
   
   
-  // EMAIL ADDRESS
-  //if (frameCount*2%360 > 0 && frameCount*2%360 < 90) {
-  //  newEmail=('0-90@email.com');
-  //} else if (frameCount*2%360 > 90 && frameCount*2%360 < 180) {
-   // newEmail=('90-180@email.com');
-  //} else if (frameCount*2%360 > 180 && frameCount*2%360 < 270) {
-  //  newEmail=('180-270@email.com');
-  //} else if (frameCount*2%360 > 270 && frameCount*2%360 < 359) {
-   // newEmail=('270-359@email.com');
+  
   console.log(newEmail);
 
   var sendButton;
-  sendButton = createA("mailto:"+newEmail+"?Subject=Some%20Thoughts&body="+respond+"%20", 'SEND');
+  sendButton = createA("mailto:"+newEmail+"?Subject=Some%20Thoughts&body='Hello%20'"+emailName+"'%20'"+respond+"%20", 'SEND');
   sendButton.position(windowWidth/2-65, windowHeight/2-25);
   
   sendButton.style('color', '#EE2845');
@@ -349,6 +353,5 @@ function mousePressed () {
   sendButton.style('text-decoration','none');
   
 }
-
 
 
