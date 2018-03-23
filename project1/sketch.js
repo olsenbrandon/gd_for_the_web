@@ -343,7 +343,7 @@ function mousePressed () {
   console.log(newEmail);
 
   var sendButton;
-  sendButton = createA("mailto:"+newEmail+"?Subject=Some%20Thoughts&body='Hello%20'"+emailName+"'%20'"+respond+"%20", 'SEND');
+  sendButton = createA("mailto:"+newEmail+"?Subject=Some%20Thoughts&body=Hello%20"+emailName+"%0D%0A"+respond+"%20", 'SEND');
   sendButton.position(windowWidth/2-65, windowHeight/2-25);
   
   sendButton.style('color', '#EE2845');
